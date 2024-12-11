@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import TodoPage from './pages/TodoPage';
 
 const App: React.FC = () => {
   return (
-    <h1>Example Template</h1>
+    <TodoPage heading='Todo App'/>
   );
 }
 

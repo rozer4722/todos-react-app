@@ -1,5 +1,10 @@
 export type TodoTypes = {
   id: number;
-  text: string;
+  title: string;
   completed: boolean;
+  userId: number;
 };
+
+export interface TodoPageInterface {
+  heading: string;
+}
